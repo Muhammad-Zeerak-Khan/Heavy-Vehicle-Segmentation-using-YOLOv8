@@ -1,0 +1,14 @@
+path :  /content/drive/MyDrive/ColabNotebooks/Heavy Vehicle Detection
+train: train/images
+val: valid/images
+#test: ../test/images
+
+nc: 7
+names: ['A-10-TRIDEM', 'A-13', 'AXLE', 'TYPE-2', 'TYPE-2-S2', 'TYPE-3', 'UC']
+
+roboflow:
+  workspace: spcv-lab-iitt
+  project: heavy-vehicle-detection-qiop2
+  version: 23
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/spcv-lab-iitt/heavy-vehicle-detection-qiop2/dataset/23
