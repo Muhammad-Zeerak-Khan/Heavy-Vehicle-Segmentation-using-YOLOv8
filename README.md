@@ -24,9 +24,9 @@ conda create --prefix ./env python==3.8 -y
 ```bash
 pip install -r requirements.txt
 ```
-* Run train.py to start training the pre-trained segmentation model.
-``` python
-python train.py
+* Run the following command to start training the pre-trained segmentation model.
+``` bash
+yolo segment train data=data.yaml model='yolov8n-seg.pt' epochs=100 imgsz=640
 ```
 
 * Finally run predict.py to get the segmentation masks.
