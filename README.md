@@ -12,8 +12,6 @@ The dataset used in this tutorial can be downloaded from [here]([https://drive.g
 A Yolov8 pre-trained model (YOLOv8n) was used to detect vehicles.
 
 The model was trained on Tesla T4 provided by Google Collab and the vehicle segmentation model can be found [here]([https://drive.google.com/file/d/11brwx1dOZ5dGAlrCMQ_IQrYt51Y4lIJ2/view?usp=sharing])
-- The model is available [here](https://drive.google.com/file/d/1Zmf5ynaTFhmln2z7Qvv-tgjkWQYQ9Zdw/view?usp=sharing).
-
 
 ## Project Setup
 
